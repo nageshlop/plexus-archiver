@@ -1,4 +1,7 @@
 language: java
+arch:
+  - amd64
+  - ppc64le
 jdk:
   - openjdk7
   - oraclejdk8
@@ -24,3 +27,4 @@ branches:
 notifications:
     email:
         - khmarbaise@apache.org
+        - nagesh.tarale@ibm.com
