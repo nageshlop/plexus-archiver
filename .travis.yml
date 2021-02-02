@@ -8,7 +8,15 @@ jdk:
   - openjdk9
   - openjdk10
   - openjdk11
-
+jobs:
+  exclude:
+      - arch: ppc64le
+        jdk:
+          - openjdk7
+      - arch: ppc64le
+        jdk:
+          - oraclejdk8
+          
 dist: trusty
 
 # No need for preliminary install step.
